@@ -1,0 +1,137 @@
+
+.layout{
+  display: flex;
+}
+ body{
+  width: 70%;
+  margin: 100px auto ;
+  
+}
+
+.sedans{
+height: 500px;
+width: 500px;
+background-color: hsl(31, 77%, 52%);
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+h2{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+}
+
+.p-sedans{
+  width: 25%;
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 2;
+  color: hsla(0, 0%, 100%, 0.75)
+}
+
+.p-suvs{
+  width: 30%;
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 2;
+  color: hsla(0, 0%, 100%, 0.75)
+}
+.p-luxury{
+  width: 55%;
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 2;
+  color: hsla(0, 0%, 100%, 0.75)
+  
+}
+.suvs{
+  height: 500px;
+  width: 500px;
+  background-color: hsl(184, 100%, 22%);
+    }
+
+.luxury{
+    height: 500px;
+    width: 500px;
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+  }
+
+.icon{
+    margin: 50px 50px ;
+    position: absolute;
+  }
+
+.btn-sedan{
+    position: relative;
+    top: 50px;
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 25px;
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    border: solid #f7fafc 2px;
+    text-decoration: none;
+    width: 15%;
+    
+  }
+  
+  .btn-sedan:hover {
+    background: transparent;
+    text-decoration: none;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+  }
+
+  
+  .btn-suvs{
+    position: relative;
+    top: 50px;
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 25px;
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    border: solid #f7fafc 2px;
+    text-decoration: none;
+    width: 15%;
+    
+  }
+  
+  .btn-suvs:hover {
+    background: transparent;
+    text-decoration: none;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+  }
+
+
+  .btn-luxury{
+    position: relative;
+    top: 50px;
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 25px;
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    border: solid #f7fafc 2px;
+    text-decoration: none;
+    width: 15%;
+    
+  }
+  
+  .btn-luxury:hover {
+    background: transparent;
+    text-decoration: none;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+  }
